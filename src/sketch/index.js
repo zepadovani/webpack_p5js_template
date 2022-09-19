@@ -30,10 +30,7 @@ export default function sketch(s) {
     }
   }
 
-//    console.log(x);
+
   };
 
-  s.mousePressed = () => {
-    backgroundColor = s.color(s.random(25), s.random(25), s.random(25));
-  };
 }
