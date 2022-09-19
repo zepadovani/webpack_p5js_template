@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack --config ./bundler/webpack.prod.js",
     "dev": "webpack-dev-server --config ./bundler/webpack.dev.js",
-    "clean": "rm -rf ../dist/*"
+    "clean": "rm -rf dist*"
   },
   "author": "",
   "license": "MIT",
